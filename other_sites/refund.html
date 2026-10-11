@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DevLink</title>
+    <link rel="stylesheet" href="refund.css">
+</head>
+<body>
+
+    
+
+    <header>
+        <h2>DevLink{}</h2>
+
+        <div class="buttons">
+            <a href="../main_page.html">Home</a>
+            <a href="../login_page.html">Logout</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <h1>Refund Request</h1>
+
+            <form>
+                <label for="Name">Company Name / Employee ID</label>
+                <input type="text" id="Name" value="" placeholder="NeutralMatrix Inc">
+
+                <label for="Transaction">Transaction / Deposit Reference ID</label>
+                <input type="text" id="Transaction" value="" placeholder="TXN-984210-DEV" >
+
+                <label for="DepositAmount">Deposit Amount ($ USD)</label>
+                <input type="text" id="DepositAmount" value="" placeholder="$500" >
+
+                <label for="Reason">Reason for Refund Request</label>
+                <select id="Reason">
+                    <option>Listing Canceled</option>
+                    <option>Duplicate Charge</option>
+                    <option>Unsatisfied with produced work</option>
+                    <option>Administrative Error</option>
+                </select>
+
+                
+
+                <label for="Notes">Additional Details / Notes</label>
+                <textarea id="Notes" rows="3" placeholder="Describe the reason for requesting a refund of your deposit.." ></textarea>
+
+                <button type="button">Submit</button>
+            </form>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
+    
