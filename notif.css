@@ -1,0 +1,128 @@
+body {
+	background-image: url("../Backgrounds/first.jpeg");
+
+    font-family: "Courier New", monospace;
+    color: white;
+    margin: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #00ff66;
+
+}
+
+h1 {
+    color: #00ff66;
+    margin: 0;
+}
+
+button {
+    background: none;
+    color: #00ff66;
+    border: 1px solid #00ff66;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: "Courier New", monospace;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #00ff78;
+    color: black;
+}
+
+.container {
+    width: 70%;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #00ff66;
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+h2 {
+    color: #00ff66;
+    margin-bottom: 8px;
+}
+
+.clear {
+   
+    margin-bottom: 20px;
+
+}
+
+.notification {
+    padding: 18px;
+    margin-bottom: 12px;
+    border: 1px solid;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    border-color: #00ff66;
+    color: white;
+}
+
+
+
+.notification h3 {
+    margin: 0 0 8px;
+    color: #00ff66;
+}
+
+
+
+
+.notification p {
+    line-height: 1.4;
+}
+
+.date {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.actions {
+    min-width: 125px;
+    text-align: center;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.red {
+    color: #00ff66;
+    border-color: #00ff66;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    .container {
+        width: auto;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .notification {
+        flex-direction: column;
+    }
+
+    .actions {
+        text-align: left;
+    }
+}
